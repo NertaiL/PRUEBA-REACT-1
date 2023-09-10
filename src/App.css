@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+#root {
+ 
+  padding: 4rem;
+  text-align: center;
+  font-family: 'Salsa', cursive;
+}
+
+
+
+.inputt {
+  width: 400px !important; /* important me va a subscribir lo que trae react */
+  height: 4rem !important; 
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición suave para transform y box-shadow */
+  transform: translateY(0); /* Posición inicial (no movida) */
+}
+
+.inputt:hover{
+  transform: translateY(-10px); /* Mueve la tarjeta un poco hacia arriba */
+  box-shadow: 0 20px 40px rgba(255, 223, 0, 0.5); /* Sombra amarilla */
+}
+
+
+
+#button-addon2{
+  background-color:rgb(255, 214, 33) ;
+  border: 4px rgb(255, 214, 33) solid;
+}
+
+
+.box-daddy{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  row-gap: 40px;
+  margin-top: 4rem;
+}
+
+.box-daddy .card {
+  border: 4px rgb(255, 214, 33) solid;
+  width: 21rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición suave para transform y box-shadow */
+  transform: translateY(0); /* Posición inicial (no movida) */
+  
+
+}
+
+.box-daddy .card:hover {
+  transform: translateY(-10px); /* Mueve la tarjeta un poco hacia arriba */
+  box-shadow: 0 20px 40px rgba(255, 223, 0, 0.5); /* Sombra amarilla */
+}
+
+.card-body{
+  background-image: url(https://uvn-brightspot.s3.amazonaws.com/assets/vixes/btg/series.batanga.com/files/Doh-los-gif-mas-estupidos-de-Homero-Simpson-19.gif);
+  color:rgb(255, 221, 0) !important ;
+}
+
+
+
+
+.card-img-top{
+  height: 20rem;
+}
+
+.card-title{
+  height: 3rem;
+  
+}
+
+.card-text{
+  height: 11rem;
+  font-weight: 600;
+  color: aliceblue;
+}
+
+.badge {
+  width: 16rem;
+  height: 3rem;
+}
+
+.badge h5{
+  margin-top: 8px;
+}
+
+

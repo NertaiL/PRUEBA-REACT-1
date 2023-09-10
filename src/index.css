@@ -1,0 +1,9 @@
+body{
+    background-image: url(https://fondosmil.com/fondo/25216.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    cursor:url(./image/favicon.ico), auto;
+}
+
+
